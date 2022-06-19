@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*****************************************************home******************************************************/
+.home{
+    height: 100vh;
+   background-color: #09c;
+   background-image: url(../images/shutterstock_277750193.jpg);
+   text-align: center;
+   background-position: center center;
+   background-size: cover;
+}
+.home .nav{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+.home .nav img{
+    float: left;
+    width: 15%;
+    
+    
+}
+.home .nav ul{
+    float: right;
+    list-style: none;
+}
+.home .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+.home .nav ul li a:hover{
+    color: #353330;
+    border-top: 2px solid #353330;
+    padding: 10px 0px;
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    transition: 0.5s;
+}
+.home h1, .home p{
+    margin: 10px 0px;
+    color: white;
+
+}
+.home h1{
+    font-size: 200%;
+}
+.home p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 230%;
+}
+.btn1, .home .btn2{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+
+}
+.btn1{
+    background-color: #C1AB84;
+    color: white;
+    transition: 0.3s;
+}
+.home .btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.home .icon{
+    width: 20px;
+    height: 40px;
+    border: 2px solid white;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/*****************************************************about******************************************************/
+.about{
+    padding: 40px;
+}
+.about .img-div{
+    width: 40%;
+    float: left;
+}
+.about .img-div img{
+    width: 90%;
+}
+
+.about .about-caption{
+    width: 60%;
+    float: left;
+    padding: 20px;
+    margin-top: 70px;
+}
+.about .about-caption h2, .about .about-caption h5,
+.about .about-caption p{
+    margin: 20px 0px;
+    font-family: cursive;
+}
+.about .about-caption h5{
+    color: #C1AB84;
+    font-family: 'Dancing Script', cursive;
+    font-size: 230%;
+}
+.about .about-caption ul{
+    list-style-type: none;
+}
+.about .about-caption ul li{
+    margin: 10px 10px;
+}
+.about .about-caption ul li i{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    padding: 10px 0px;
+    background-color: #C1AB84;
+    border-radius: 50%;
+    color: white;
+}
+.about .about-caption ul li span{
+    padding: 15px;
+}
+.clr{
+    clear: both;
+}
+
+
+/**********************************************service****************/
+.service{
+    padding: 40px;
+    background-color: #F8F8F8;
+}
+.service .service-caption{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.service .service-caption h2,.service .service-caption h5,.service .service-caption p{
+    margin: 20px 0px;
+    font-family: cursive;
+}
+.service .service-caption h5{
+    color: #C1AB84;
+    font-family: 'Dancing Script', cursive;
+    font-size: 230%;
+}
+.service .service-img{
+    width: 50%;
+    float: left;
+}
+.service .service-img img{
+    width: 100%;
+}
+.service-caption ul{
+    list-style-type: none;
+}
+.service-caption ul li{
+    margin: 10px 10px;
+}
+.service-caption ul li i{
+    color: #C1AB84;
+}
+.rest-img{
+    background-image: url(../images/shutterstock_280369721.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+.menu{
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 75px 0px;
+}
+.menu h2{
+    font-family: cursive;
+    margin: 20px 0px;
+   
+}
+.menu h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 230%;
+    color: #C1AB84;
+}
+.menu .dish{
+    width: 33.333%;
+    float: left;
+    padding: 20px;
+}
+.menu .dish p{
+    color: #686868;
+}
+.menu .dish h2{
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    color: #253048;
+}
+.menu .dish img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.feedback{
+    background-image: url(../images/shutterstock_277750193\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 75px 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feedback .feedback-caption{
+    width:80%;
+    margin: auto;
+}
+.feedback .feedback-caption p,
+.feedback .feedback-caption h5{
+    margin: 20px 0px;
+
+}
+.feedback .swap{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-weight: 900;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.contact{
+    width: 90%;
+    margin: auto;
+    padding: 70px 0px;
+}
+.contact .contact-info,
+.contact .contact-location{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.contact p,
+.contact h5{
+    margin: 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact ul{
+    list-style-type: none;
+}
+.contact ul li i{
+    margin: 10px 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #C1AB84;
+    padding: 15px;
+    border-radius: 50%;
+}
+iframe{
+    width: 100%;
+}
+
+.footerdiv{
+    background-color: #403D38;
+    padding: 20px;
+    color: white;
+}
+.footerdiv .container{
+    width: 95%;
+    margin: auto;
+}
+.footerdiv .foot-about,
+.footerdiv .foot-links,
+.footerdiv .foot-contact,
+.footerdiv .foot-hours{
+    width: 25%;
+    float: left;
+    padding: 0px 20px;
+}
+.foot-about p{
+    margin: 20px 0px;
+    font-family: cursive;
+}
+.foot-links li,
+.foot-hours li,
+.foot-contact li{
+    margin: 20px 0px;
+    font-family: cursive;
+    list-style-type: none;
+    color: #686868;
+    border-bottom: 1px solid #686868;
+    padding: 10px 0px;
+}
+.foot-links a,
+.foot-contact a{    
+    color: #686868;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.foot-links a:hover,
+.foot-contact a:hover{
+    color: white;
+}
+
+.foot-contact a{
+    font-size: 14px;
+}
+footer{
+    background-color: #353330;
+    text-align: center;
+    color: #686868;
+    padding: 30px 0px;
+}
+footer img,
+footer p{
+    margin: 10px 0;
+}
+footer i{
+    background-color: #403D38;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+footer i:hover{
+    background-color: #0275d8;
+}
+
+@media screen and (max-width: 768px){
+    .about .img-div,.about .about-caption,
+    .service .service-img,.service .service-caption,
+    .contact .contact-info,.contact .contact-location,
+    .footerdiv .foot-about,.footerdiv .foot-contact,.footerdiv .foot-hours,.footerdiv .foot-links{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    
+    
+    .menu .dish{
+        width: 100%;
+    }
+    
+}
